@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    background-color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #3f3f3f;
+  color: #fff;
+  padding: 0 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 40px;
+}
+
+footer {
+    height: 20px;
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+.section {
+  display: flex;
+  width: auto;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+  background-image: url('https://i.imgur.com/H4tg8hd.gif');
+  background-size: contain;
+  color: #000000;
+  position: relative;
+}
+
+.section-content {
+  background-color: rgba(169, 224, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.section-content img {
+  max-width: 100%;
+  height: auto;
+  width: 50%;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+  margin: 20px 0;
+  clear: both;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
+}
+
+footer p {
+  background-color: transparent;
+  color: #d5d5d5;
+  padding: 0;
+  margin: 0;
+}
